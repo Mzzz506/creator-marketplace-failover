@@ -1,0 +1,8 @@
+{
+  "name": "creator-marketplace-failover",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/main.ts", "test": "tsx src/marketplace_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.80.0", "tsx": "^4.19.2", "zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.7.2", "@types/node": "^22.10.2"}
+}
